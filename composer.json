@@ -1,0 +1,19 @@
+{
+    "name": "soil/ack-service-module",
+    "version": "0.0.1",
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ],
+        "psr-4": {
+            "Soil\\AckServiceModule\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework":          "2.3",
+        "soil/ack-service": "dev-master"
+    }
+}
